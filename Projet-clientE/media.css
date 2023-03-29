@@ -1,0 +1,57 @@
+  /* pour les écrans plus petits que 768px (ex: phone ) */
+  @media only screen and (max-width: 767px) {
+    /* styles pour les écrans plus petits */
+    .bloc {
+          flex-direction: column;
+          height: auto;
+    }
+    .image {
+        max-width:25%;
+        height:auto;
+    }
+    body{
+        background-image: 
+        url('./Background.png');
+        max-width:25%;
+        height:auto;
+    }
+  }
+  
+  /* pour les écrans entre 768px et 1024px (ex: tablette) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* styles pour les écrans de taille moyenne */
+    .bloc {
+          flex-direction: column;
+          height: auto;
+    }
+    .image {
+        max-width:50%;
+        height:auto;
+    }
+    body{
+        background-image: 
+        url('./Background.png');
+        max-width:50%;
+        height:auto;
+    }
+   
+  }
+  
+  /* pour les écrans plus grands que 1024px (ex: desktop) */
+  @media only screen and (min-width: 1024px) {
+    /* styles pour les grands écrans */
+    .bloc {
+          flex-direction: column;
+          height: auto;
+    }
+    .image {
+        max-width:100%;
+        height:auto;
+    }
+    body{
+        background-image: 
+        url('./Background.png');
+        max-width:100%;
+        height:auto;
+    }
+  }
