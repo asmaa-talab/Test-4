@@ -1,0 +1,127 @@
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px){
+  img {
+    width: 1rem;
+  }
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(9 9 57);
+   
+}
+
+  .sub {
+    width: 25rem;
+    height: 31.4rem;
+    background-color: white;
+    position: relative;
+    top: -1.5rem;
+    left: 30.6rem;
+    border-radius: 1.2rem;
+  }
+  .control{
+    position:relative ;
+    top: 4rem;
+    font-size:12.8px;
+
+  }
+  
+  .text1{
+    font-size: 1rem;
+  }
+  .texte{
+    margin-left: 1rem;
+    position: relative;
+    top: 1.4rem;
+  }
+  .text2{
+font-size: 0.8rem;
+position: relative;
+top: 0.4rem;
+  }
+  .image{
+    width: 17rem;
+    margin-left: 34rem;
+    position: relative;
+    top: -1rem;
+  }
+  .text3{
+    color: rgb(255, 13, 13);
+    position: relative;
+    top: 1rem;
+    font-size: 0.7rem;
+    left: 17rem;
+  }
+form{
+    margin-left: 2rem;
+}
+.civilite{
+    position: relative;
+    bottom:  1.4rem;
+}
+.second_radio{
+    position: relative;
+    left: 1.8rem;
+    align-items: center;
+    
+}
+.test_radio{
+    position: relative;
+    left: 0.8rem;
+    text-align: center;
+}
+.test_center{
+    position: relative;
+    bottom: 0.2rem;
+}
+.start{
+    color: rgb(255, 13, 13);
+}
+#change{
+    position: relative;
+    bottom: 1rem;
+}
+.test_input{
+    
+    border-radius: 2rem;
+    width: 20rem;
+    position: relative;
+    left: 0.4rem;
+    border: none;
+    box-shadow: 0px 0.1px 2.5px rgb(30 30 30);
+    height: 1.4rem;
+    top: 0.2rem;
+}
+
+  .button{
+    position: relative;
+    top: 4rem;
+    left: 2.5rem;
+  }
+  #button_inc{
+    position: relative;
+    width: 20rem;
+    border-radius: 1rem;
+    border: none;
+    height: 1.7rem;
+    background-color: rgb(9 9 57);
+    color: #fff;
+    bottom: 4rem;
+    left: -2.1rem;
+  }
+  .option1{
+    color: rgb(255, 13, 13);
+    font-size: 0.7rem;
+    position: relative;
+    left: 1rem;
+  }
+  #list{
+    width: 2rem;
+  }
+  option[value="Veuillez choisir..."] {
+    color: red;
+  }

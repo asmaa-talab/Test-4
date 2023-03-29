@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <style>   
+    body{
+        background-image: url('./Background.png');
+
+    }
+     
+    </style>
+    <div >
+        <img  class="image" src="Logopng.png "  style="max-width:100%;height:auto;">
+    </div>
+    <div id="dom">
+        <div class="sub">
+            <div class="texte">
+                <p class="text1">Bienvenue dans le formulaire d'inscription à l'événement <br/>Moroccan Lighting day 4 Africa</p>
+                <div>
+            <p class="text2">Afin de vous inscrire. merci de compléter le formulaire ci dessous.Vous recervez un mail avec votre invitation</p>
+                </div>
+            <p class="text3">*champs obligatoire</p>
+            </div>
+           <form class="control" action="https://formsubmit.co/awfaabdulkader6@gmail.com" method="POST" onsubmit="sendEmail()" >
+
+
+            <div id="controle" class="civilite">
+            <label class="test_center">Civilité <span class="start">*</span></label>
+            
+                <input type="radio" class="first_radio test_radio" name="Ma" value="Madame"> 
+                <label class="test_radio test_center">Madame</label>
+            
+                <input type="radio" class="second_radio " name="Ma" value="Monsieur"> 
+                <label class="second_radio test_center">Monsieur</label><br/>
+            </div>
+<div id="change">
+    <input type="hidden" name="_next" value="confirmation.html" />
+
+                <label>Prénom<span class="start">*</span></label><br/>
+                <input type="text" id="prénom" class="test_input  " name="prénom" required><br/>
+                <br/>
+                <label>Nom</label><br/>
+                <input type="text" id="nom"  class="test_input" name="Nom"><br/>
+
+                <br/>
+                <label>Société/Organisation/Etablissement</label><br/>
+                <input type="text" id="space" class="test_input" name="Société/Organisation/Etablissement"><br/>
+
+                <br/>
+                <label>E-mail<span class="start">*</span></label><br/>
+                <input type="text" id="email"  class="test_input" name="E-mail" required><br/>
+<br/>
+<label>Phone<span class="start">*</span></label><br/>
+                <input type="text" id="email"  class="test_input" name="E-mail" required><br/>
+<br/>
+                <label>l'événement vous intéresse pour<span class="start">*</span></label><br/>
+                
+                <select id="liste" class="test_input "  required >
+                    <option class="option1"  value="Veuillez choisir...">Veuillez choisir...</option>
+                    <option value="Intérêt professionnel dans l'éclairage">Intérêt professionnel dans l'éclairage</option>
+                    <option value="Intérêt pour l'art/photographie">Intérêt pour l'art/photographie</option>
+                    <option value=" Découvrir la technologie intelligente"> Découvrir la technologie intelligente</option>
+                    <option value="Passion pour la science/technologie">Passion pour la science/technologie</option>
+                    <option value="Intérêt pour la durabilité/énergie">Intérêt pour la durabilité/énergie</option>
+                </select>
+                <br/>
+            </div>
+            <div class="button">
+                <button id="button_inc" >S'inscrire</button>
+               </div>
+           </form>
+           
+        </div>
+        
+    </div>
+    </div>
+    </div>
+    
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
